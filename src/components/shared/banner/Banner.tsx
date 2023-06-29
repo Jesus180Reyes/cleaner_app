@@ -11,7 +11,7 @@ export const Banner:FC<Props> = ({title,subtitle,btnTitle}) => {
     <div className="title-container">
     <h1>{title}</h1>
     <p>{subtitle}</p>
-    <button>{btnTitle}</button>
+    <button className="btn">{btnTitle}</button>
     </div>
  </div>
   )
