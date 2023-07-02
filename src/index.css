@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 0;
 }
 body {
   background-color: #f1f1f1;
@@ -130,7 +131,6 @@ body {
 }
 
 .address-container {
-  position: relative;
   background-color: #3333CC;
   height: 10vh;
 }
@@ -155,4 +155,45 @@ body {
 
 .address-row a:hover {
   color: #3333CC;
+}
+
+.card-row-container {
+  margin-bottom: 20px;
+  display: flex;
+  /* background-color: red; */
+  border-radius: 30px;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.card-row {
+  gap: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-row img {
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-row .row-title {
+  width: 50vw;
+  /* background-color: green; */
+  text-align: center;
+}
+
+.card-row .row-title h1 {
+  font-size: 2.5rem;
+}
+
+.card-row .row-title p {
+  font-size: 1.5rem;
+}
+
+.isReversed  {
+  display: flex;
+  flex-direction: row-reverse;
 }
