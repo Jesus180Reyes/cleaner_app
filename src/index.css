@@ -158,9 +158,10 @@ body {
 }
 
 .card-row-container {
+  margin: 20px;
   margin-bottom: 20px;
   display: flex;
-  /* background-color: red; */
+  background-color: red;
   border-radius: 30px;
   margin-top: 30px;
   justify-content: space-around;

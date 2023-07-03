@@ -1,6 +1,27 @@
+import { Banner,  Footer,  Navbar, RowCard } from "../../components/shared"
 
 export const BlogPage = () => {
   return (
-    <div>BlogPage</div>
+    <>
+    <Navbar/>
+    <Banner 
+    title={"Blog"} 
+    subtitle={"Blog del sitio"} 
+    btnTitle={"Contactanos"}/>
+
+   <RowCard 
+   title={"Quienes Somos"} 
+   subtitle={"Nulla officia duis velit et veniam quis fugiat."}
+   />
+   <RowCard 
+   title={"Quienes Somos"} 
+   subtitle={"Nulla officia duis velit et veniam quis fugiat."}
+   isReversed
+   />
+   <Footer/>
+
+
+
+    </>
   )
 }

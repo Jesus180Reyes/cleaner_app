@@ -1,6 +1,13 @@
+import { Banner, Navbar } from "../../components/shared"
 
 export const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <>
+    <Navbar/>
+    <Banner 
+    title={"Sobre nosostros"} 
+    subtitle={"Subtitulo De Sobre nosotros"} 
+    btnTitle={"Descubrenos"}/>
+    </>
   )
 }
