@@ -232,3 +232,50 @@ body {
   height: 70px;
   text-align: center;
 }
+
+.contact-container {
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.form-container {
+  height: 70vh;
+  width: 50vw;
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+.map-container {
+  /* background-color: green; */
+  height: 70vh;
+  width: 50vw;
+  border-radius: 10px;
+}
+.map-container iframe {
+  border-radius: 10px;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+} 
+
+.form-container form input {
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 15px;
+  
+}
+.form-container  h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
