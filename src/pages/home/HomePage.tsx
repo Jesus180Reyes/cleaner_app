@@ -5,10 +5,10 @@ export const HomePage = () => {
     <>
     <Navbar/>
     <Banner 
-      title="Residential Commercial & Strata Cleaning" 
-      subtitle="Contact Us Now" 
-      btnTitle="Residential"
-      />
+    title="Residential Commercial & Strata Cleaning"
+    subtitle="Contact Us Now"
+    btnTitle="Residential" 
+    imgUrl={"src/assets/banner.jpg"}/>
     <h1 style={{"textAlign": "center"}}>Nuestros Servicios</h1>
     <RowCard 
     title="Aute do irure minim quis commodo enim sit veniam velit id in occaecat." 

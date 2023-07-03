@@ -5,9 +5,10 @@ export const BlogPage = () => {
     <>
     <Navbar/>
     <Banner 
-    title={"Blog"} 
-    subtitle={"Blog del sitio"} 
-    btnTitle={"Contactanos"}/>
+    title={"Blog"}
+    subtitle={"Blog del sitio"}
+    btnTitle={"Contactanos"} 
+    imgUrl={"https://juanitoelpintor.com/wp-content/uploads/2021/05/adult-painter-man-isolated-blue-wall_1368-171336.jpg"}/>
 
    <RowCard 
    title={"Quienes Somos"} 
