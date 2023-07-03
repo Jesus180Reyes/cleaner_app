@@ -1,4 +1,4 @@
-import { Banner, CardItem, Footer, Navbar, RowCard } from "../components/shared/"
+import { Banner, CardItem, Footer, Navbar, RowCard } from "../../components/shared"
 
 export const HomePage = () => {
   return (

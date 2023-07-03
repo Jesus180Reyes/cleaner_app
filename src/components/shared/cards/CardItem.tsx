@@ -1,4 +1,4 @@
-import { card_itemData } from "../../../data/card_item"
+import { card_itemData } from "../../../data/card/card_item"
 
 export const CardItem = () => {
   return (
