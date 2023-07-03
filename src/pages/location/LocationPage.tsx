@@ -1,4 +1,4 @@
-import { Banner, Navbar } from "../../components/shared"
+import { Banner, FloatingActionButton, Footer, Navbar } from "../../components/shared"
 
 export const LocationPage = () => {
   return (
@@ -8,6 +8,8 @@ export const LocationPage = () => {
     title={"Nuestra Ubicacion"} 
     subtitle={"ubicacion del sitio"} 
     btnTitle={"Encuentranos"}/>
+    <Footer/>
+    <FloatingActionButton/>
 
     </>
   )

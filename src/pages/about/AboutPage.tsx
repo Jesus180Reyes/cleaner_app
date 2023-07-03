@@ -1,4 +1,4 @@
-import { Banner, Navbar } from "../../components/shared"
+import { Banner, FloatingActionButton, Footer, Navbar } from "../../components/shared"
 
 export const AboutPage = () => {
   return (
@@ -8,6 +8,8 @@ export const AboutPage = () => {
     title={"Sobre nosostros"} 
     subtitle={"Subtitulo De Sobre nosotros"} 
     btnTitle={"Descubrenos"}/>
+    <Footer/>
+    <FloatingActionButton/>
     </>
   )
 }

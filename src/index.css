@@ -8,6 +8,7 @@
   border: 0;
 }
 body {
+  position: relative;
   background-color: #f1f1f1;
 }
 
@@ -197,4 +198,37 @@ body {
 .isReversed  {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.floating-action-container {
+  position: relative;
+  background-color: red;
+}
+
+.floating-action-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 5vh;
+  margin-bottom: 20px;
+  /* background-color: red; */
+  height: 70px;
+  width:70px;
+  border-radius: 100%;
+}
+
+.floating-action-btn i {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  color: #25D366;
+  width: 70px;
+  height: 70px;
+  text-align: center;
 }
