@@ -7,7 +7,7 @@ export const ContactPage = () => {
     <Banner 
     title={"Contactanos"}
     subtitle={"Podras comunicarte con nosotros y un asesor se pondra en contacto contigo"}
-    btnTitle={"Contactanos"} 
+    
     imgUrl={"https://www.pinturapro.cl/wp-content/uploads/2017/09/pintura-casas.jpg"}/>
     <h1 style={{textAlign: "center"}}>Contactanos</h1>
     <div className="contact-container">
