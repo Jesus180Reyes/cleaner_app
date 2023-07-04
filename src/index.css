@@ -162,7 +162,7 @@ body {
   margin: 20px;
   margin-bottom: 20px;
   display: flex;
-  background-color: red;
+  background-color: rgb(226, 226, 226);
   border-radius: 30px;
   margin-top: 30px;
   justify-content: space-around;
