@@ -6,7 +6,6 @@ export const FloatingActionButton = () => {
 
   const onIconChange = () => {
     setIsWhatsapp(!isWhatsapp );
-    console.log(isWhatsapp);
   }
   useEffect(() => {
     setTimeout(() => {
