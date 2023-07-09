@@ -1,14 +1,13 @@
-import { Banner, CardItem, FloatingActionButton, Footer, Navbar, RowCard } from "../../components/shared"
-
+import {  CardItem, FloatingActionButton, Footer, Navbar, RowCard } from "../../components/shared"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { SliderComponent } from "../../components/home";
+ 
 export const HomePage = () => {
   return (
     <>
     <Navbar/>
-    <Banner 
-    title="Residential Commercial & Strata Cleaning"
-    subtitle="Contact Us Now"
-    btnTitle="Residential" 
-    imgUrl={"src/assets/banner.jpg"}/>
+    <SliderComponent/>
     <h1 style={{"textAlign": "center"}}>Nuestros Servicios</h1>
     <RowCard 
     title="Aute do irure minim quis commodo enim sit veniam velit id in occaecat." 
