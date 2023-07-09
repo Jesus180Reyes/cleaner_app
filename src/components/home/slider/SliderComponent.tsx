@@ -6,13 +6,14 @@ export const SliderComponent = () => {
 const settings = {
     // dots: true,
     infinite: true,
-    speed: 500,
+    speed: 3000,
     autoplay:true,
     slidesToShow: 1,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     adaptiveHeight: true,
     adaptiveWeight: true,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    fade: true
 };
   return (
     <>

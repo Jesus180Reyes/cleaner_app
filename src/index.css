@@ -139,24 +139,30 @@ body {
 .address-row {
   display: flex;
   height: 100%;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: #fff;
   align-items: center;
 }
 
 .address-row a {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   text-decoration: none;
+  font-weight: bold;
   color: #111;
   font-size: 1rem;
 }
 .address-row button {
   text-align: center;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .address-row a:hover {
   color: #3333CC;
+}
+.address-row img {
+  /* background-color: red; */
+  margin-bottom: 10px;
+  justify-content: center;
 }
 
 .card-row-container {
@@ -279,5 +285,14 @@ body {
   font-weight: bold;
   text-align: center;
 }
-
-
+.title {
+  margin: 10px;
+}
+.title p  {
+  font-size: 1rem;
+}
+.title h1 {
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
