@@ -18,7 +18,7 @@ export const FloatingActionButton = () => {
   }, [isWhatsapp]);
   return (
     <>
-    <div className="floating-action-btn">
+    <div className="floating-action-btn" onClick={()=> location.href = "https://www.facebook.com/"}>
     <i   className={`fa-brands fa-${isWhatsapp ? "whatsapp": "facebook"}`}></i>
     </div>
     </>
