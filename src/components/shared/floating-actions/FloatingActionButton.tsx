@@ -18,7 +18,11 @@ export const FloatingActionButton = () => {
   return (
     <>
     <div className="floating-action-btn" onClick={()=> location.href = "https://www.facebook.com/"}>
-    <i   className={`fa-brands fa-${isWhatsapp ? "whatsapp": "facebook"}`}></i>
+     {
+      isWhatsapp ?  <i className="fa-brands fa-whatsapp"></i>
+     : <i className={`fa-brands fa-facebook`} style={{color: "#3b5998"}}></i>
+    
+  } 
     </div>
     </>
   )
