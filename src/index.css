@@ -296,3 +296,33 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.social-media-container {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.social-media-container h3 {
+  
+  font-size: 2rem;
+}
+.social-media-container p {
+  font-size: 1.2rem;
+}
+
+.social-media-container .icons {
+  gap: 30px;
+  /* background-color: green; */
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.social-media-container .icons i {
+  cursor: pointer;
+  gap: 30px;
+  margin-left: 30px;
+  /* background-color: green; */
+  font-size: 3.5rem;
+  text-align: center;
+}

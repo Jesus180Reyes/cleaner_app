@@ -1,4 +1,5 @@
 import { Banner, Footer, Navbar } from "../../components/shared"
+import { SocialMediaComponent } from "../../components/shared/social_media/SocialMediaComponent"
 
 export const ContactPage = () => {
   return (
@@ -27,7 +28,9 @@ export const ContactPage = () => {
           
         </form>
       </div>
+      
     </div>
+    <SocialMediaComponent/>
     <Footer/>
     </>
   )
