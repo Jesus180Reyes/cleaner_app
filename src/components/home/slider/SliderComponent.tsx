@@ -17,7 +17,7 @@ const settings = {
 };
   return (
     <>
-    <Slider {...settings}>
+    <Slider {...settings} className="slider-carousel">
     <Banner 
     title="Residential Commercial & Strata Cleaning"
     subtitle="Contact Us Now"
