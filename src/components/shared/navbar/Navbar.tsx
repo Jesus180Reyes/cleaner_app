@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom"
 
 export const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div className="address-container">
       <div className="address-row">
@@ -9,7 +11,7 @@ export const Navbar = () => {
         <a href="/misionyvision">Mission y Vision</a>
         <a href="/ubicacion">Location</a>
         <a href="/blog">Blog</a>
-        <a href="/contactanos"><button  className="btn">Contact Us !</button></a>
+        <button onClick={()=> navigate("/contactanos")} className="btn">Contact Us !</button>
       </div>
     </div>
   )
