@@ -146,10 +146,17 @@ body {
 
 .address-row a {
   /* margin-left: 50px; */
+  /* background-color: red; */
+  /* width: 150px; */
+  text-align: center;
+  transition-duration: 0.3s;
+  transition: 0.5s;
   text-decoration: none;
   font-weight: bold;
   color: #111;
   font-size: 1rem;
+  padding: 10px;
+
 }
 .address-row button {
   text-align: center;
@@ -158,6 +165,10 @@ body {
 
 .address-row a:hover {
   color: #3333CC;
+  border: 2px solid #3333CC;
+  /* padding: 5px; */
+  border-radius: 25px;
+
 }
 .address-row img {
   /* background-color: red; */
