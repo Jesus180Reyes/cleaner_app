@@ -56,7 +56,7 @@ body {
   width: 150px;
   height: 45px;
   font-size: 1rem;
-  background-color: #3333CC;
+  background-color: #cc339c;
   border: 0;
   color: #fff;
   text-decoration: none;
@@ -97,7 +97,7 @@ body {
 
 .cleaner-item-container .item:hover {
   color: #fff;
-  background-color: #3333CC;
+  background-color: #cc339c;
   transition: 0.5s;
 }
 
@@ -128,7 +128,7 @@ body {
 
 .footer-container {
 
-  background-color: #3333CC;
+  background-color: #cc339c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +139,7 @@ body {
 }
 
 .address-container {
-  background-color: #3333CC;
+  background-color: #ababab;
   height: 10vh;
 }
 .address-row {
