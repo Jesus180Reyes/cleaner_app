@@ -8,8 +8,9 @@ export const ContactPage = () => {
     <Banner 
     title={"Contact Us."}
     subtitle={"You can contact us and an advisor will contact you!."}
-    
-    imgUrl={"https://www.pinturapro.cl/wp-content/uploads/2017/09/pintura-casas.jpg"}/>
+    imgUrl={"https://www.callcentermexico.com.mx/hubfs/Stock%20images/Smiling%20casual%20young%20man%20with%20headset%20using%20computer%20in%20a%20bright%20office.jpeg"} />
+    /*imgUrl={"https://www.brandlineproducts.com/img/contact-us.png"}*/
+   
     <h1 style={{textAlign: "center"}}>Contact Us.</h1>
     <div className="contact-container">
       <div className="map-container">

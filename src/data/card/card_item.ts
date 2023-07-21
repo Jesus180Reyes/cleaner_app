@@ -1,15 +1,15 @@
 export const card_itemData = [
     {
-        title: "We Bring our own equipment and supplies",
+        title: "Impeccable Results.",
         icon: "fa-solid fa-hand-sparkles",
     },
     {
-        title: "We Bring our own equipment and supplies",
-        icon: "fa-solid fa-hand-sparkles",
+        title: "Professionalism and Punctuality.",
+        icon: "fa-solid fa-user-tie",
     },
     {
-        title: "We Bring our own equipment and supplies",
-        icon: "fa-solid fa-broom",
+        title: "Personalized attention.",
+        icon: "fa-solid fa-bell-concierge",
     },
     
 ]
