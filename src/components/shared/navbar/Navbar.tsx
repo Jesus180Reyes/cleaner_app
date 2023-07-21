@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <div className="address-container">
       <div className="address-row">
-      <a href="/"><img src="src/assets/1212.png" alt="logo" width={100} height={100}/></a>
+      <img onClick={()=> navigate("/")} src="src/assets/1212.png" alt="logo" width={100} height={100}/>
         <a href="/">Home.</a>
         <a href="/sobreNosotros">About us.</a>
         <a href="/misionyvision">Mission y Vision.</a>
