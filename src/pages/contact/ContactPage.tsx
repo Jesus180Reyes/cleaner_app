@@ -1,7 +1,21 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Banner, Footer, Navbar } from "../../components/shared"
 import { SocialMediaComponent } from "../../components/shared/social_media/SocialMediaComponent"
+import { useContactForm } from "../../hooks/useContactForm"
 
 export const ContactPage = () => {
+ const {
+  nameInput,
+  emailInput,
+  numberInput,
+  dateInput,
+  onSubmit,
+  setDateInput,
+  setEmailInput,
+  setNameInput,
+  setNumberInput
+} = useContactForm();
+  
   return (
     <>
     <Navbar/>
@@ -9,7 +23,6 @@ export const ContactPage = () => {
     title={"Contact Us."}
     subtitle={"You can contact us and an advisor will contact you!."}
     imgUrl={"https://www.callcentermexico.com.mx/hubfs/Stock%20images/Smiling%20casual%20young%20man%20with%20headset%20using%20computer%20in%20a%20bright%20office.jpeg"} />
-    /*imgUrl={"https://www.brandlineproducts.com/img/contact-us.png"}*/
    
     <h1 style={{textAlign: "center"}}>Contact Us.</h1>
     <div className="contact-container">
@@ -18,13 +31,13 @@ export const ContactPage = () => {
       </div>
       <div className="form-container">
         <h2>Drop up a message</h2>
-        <form >
-          <input type="text" placeholder="Your full name:" />
-          <input type="email" placeholder="Your e-mail:" />
-          <input type="number" placeholder="Your phone number:" />
+        <form  onSubmit={onSubmit}>
+          <input type="text" placeholder="Your full name:"  value={nameInput}  onChange={(e:any)=> setNameInput(e.target.value)}/>
+          <input type="email" placeholder="Your e-mail:" value={emailInput}  onChange={(e:any)=> setEmailInput(e.target.value)}/>
+          <input type="number" placeholder="Your phone number:" value={numberInput}  onChange={(e:any)=> setNumberInput(e.target.value) }/>
           <p>Reservation Date:</p>
-          <input type="date"  placeholder="reservation date:"/>
-          <button className="btn btn-cotizar">quote</button>
+          <input type="date"  placeholder="reservation date:" value={dateInput} onChange={(e:any)=>  setDateInput(e.target.value)}/>
+          <button onClick={onSubmit} className="btn btn-cotizar">quote</button>
 
           
         </form>

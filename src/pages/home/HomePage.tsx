@@ -6,8 +6,8 @@ import { SliderComponent } from "../../components/home";
 export const HomePage = () => {
   return (
     <>
-    <Navbar/>
     <SliderComponent/>
+    <Navbar/>
     <h1 style={{"textAlign": "center"}}>Our Services!</h1>
     <RowCard 
     title="Domestic Hygiene Solutions." 
